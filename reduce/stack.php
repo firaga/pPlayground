@@ -22,5 +22,5 @@ $pips = [
     'doctor',
 ];
 
-$first = array_reduce(($pips), $carry, $default);
+$first = array_reduce(array_reverse($pips), $carry, $default);
 $first(1, 2, 3);

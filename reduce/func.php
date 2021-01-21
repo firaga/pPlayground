@@ -1,0 +1,15 @@
+<?php
+//function name
+function myfunction($v1, $v2)
+{
+    return $v1 . "-" . $v2;
+}
+
+$a = array("Dog", "Cat", "Horse");
+print_r(array_reduce($a, "myfunction", 5));
+
+//closure
+$a = array("Dog", "Cat", "Horse");
+print_r(array_reduce($a, function ($v1, $v2) {
+    return $v1 . "-" . $v2;
+}, 5));

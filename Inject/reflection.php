@@ -3,17 +3,8 @@
  * Created by IntelliJ IDEA
  * User: jichen.zhou@eeoa.com
  * Date: 2021/7/26
- * Time: 8:02 下午
- */
-<?
-php
-/**
- * Created by IntelliJ IDEA
- * User: jichen.zhou@eeoa.com
- * Date: 2021/7/26
  * Time: 7:51 下午
  */
-
 
 class Bread
 {
